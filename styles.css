@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(214, 226, 240);
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+
+.z-image{
+    max-width:100%;
+    border-radius:12px;
+    padding: 15px 0;
+    border:1px hidden black
+}
+
+.card-container{
+    max-width:300px;
+    background-color:rgb(255,255,255);
+    padding: 18px;
+    border-radius: 17px;
+    margin:  30px 16px ;
+    border:1px solid #8c8c8c;
+    box-shadow: 4px 4px;
+    
+}
+.name{
+    border:1px hidden black ;
+    color: #1f3251;
+    padding:1px 0;
+}
+
+.main{
+    border:1px solid #8c8c8c;
+    margin:0 2px;
+    padding:4px 4px;
+    border-radius: 4px 4px;
+}
+.info{
+    font-style: italic;
+    font-size: 14px;
+}
+
+.zebra-list{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+
+span{
+    font:bold 20px "sans-serif";
+    color: #1f3251;
+}
+
+.description{
+    padding:0;
+    font-size:15px;
+    color: rgb(54, 61, 73);
+}
+
